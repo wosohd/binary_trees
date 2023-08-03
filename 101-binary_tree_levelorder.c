@@ -25,6 +25,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 /**
  * print_at_level - print node
  * @tree: pointer to the root node
+ * @level: level to print
  * @func: pointer to a function
  */
 void print_at_level(const binary_tree_t *tree, void (*func)(int), int level)
